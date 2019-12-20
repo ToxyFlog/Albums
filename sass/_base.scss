@@ -1,0 +1,20 @@
+html{
+    font-size: 62.5%; //1rem = 10px
+}
+
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right bottom, $primary-light, $primary-dark);
+    background-size: cover;
+
+    // TEMPERARY -->
+    height: 100vh;
+}
