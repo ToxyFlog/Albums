@@ -1,0 +1,35 @@
+.sidebar{
+    background-color: #eee;
+    flex:0 0 12.5%;
+    border-right:2px solid;
+    display: flex;
+    flex-direction: column;
+
+    &__song-list{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: auto;
+    }
+
+    &__current{
+        display: flex;
+        background-color: #ddd;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-top: 2px solid;
+        margin-bottom: .5rem;
+
+        &-image{
+            width:80%;
+            margin-top: 2rem;
+            margin-bottom: .5rem;
+        }
+
+        &-info{
+            text-align: center;
+            font-size: 1.75rem;
+            margin-bottom: .2rem;
+        }
+    }
+}

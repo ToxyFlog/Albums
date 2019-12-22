@@ -1,0 +1,11 @@
+.link,
+.link:visited,
+.link:link{
+    text-decoration: none;
+    color:#000;
+}
+
+.link--active{
+    font-size: 1.6rem;
+    font-weight: 400;
+}

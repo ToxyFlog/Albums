@@ -9,5 +9,6 @@ html {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif; }
 
-body {
-  height: 100vh; }
+.albums-album__image {
+  width: 1rem;
+  height: 1rem; }

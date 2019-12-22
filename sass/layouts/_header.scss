@@ -1,0 +1,17 @@
+.header{
+    background-color: #eee;
+    border-bottom: 1.5px solid #000;
+    flex:0 1 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+
+    &__nav{
+        display: flex;
+        justify-content: space-between;
+        flex:0 0 20%;
+        margin-right: 5rem;
+        align-items: center;
+    }
+}

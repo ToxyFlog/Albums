@@ -12,9 +12,7 @@ html{
 }
 
 body{
-    background-image: linear-gradient(to right bottom, $primary-light, $primary-dark);
-    background-size: cover;
-
-    // TEMPERARY -->
+    display: flex;
+    flex-direction: column;
     height: 100vh;
 }
