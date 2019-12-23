@@ -1,0 +1,21 @@
+.player{
+    display: flex;
+    flex: 0 0 12.5%;
+    width:100%;
+    background-color: #fff; 
+    justify-content: center;
+    align-items: flex-end;
+
+    &__timeline{
+        display: flex;
+        justify-content: space-between;
+        width:45%;
+        border-top: $primary 4px solid;
+        padding: .66rem;
+    }
+
+    &__image{
+        width: 6.5rem;
+        height: 6.5rem;
+    }
+}
